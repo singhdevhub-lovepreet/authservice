@@ -1,0 +1,15 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(ÉËœ”üÿÿÿÿ8¡´ù»Ü1
+Y
+java:S1128"<Remove this unused import 'authservice.auth.SecurityConfig'.(–Æ¢ª8¢´ù»Ü1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8¢´ù»Ü1
+w
+java:S1128"ZRemove this unused import 'org.springframework.context.annotation.EnableAspectJAutoProxy'.(öíéÈ8Ÿ…é»Ü1
+‚
+java:S1128
+"eRemove this unused import 'org.springframework.security.config.annotation.web.builders.HttpSecurity'.(ƒµ‹Š8¢´ù»Ü1
+‘
+java:S1128"oRemove this unused import 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity'.(ŸÜÑıÿÿÿÿ8Ÿ…é»Ü1
+n
+java:S1128"QRemove this unused import 'org.springframework.security.web.SecurityFilterChain'.(Ï×ÜÌ8¢´ù»Ü1

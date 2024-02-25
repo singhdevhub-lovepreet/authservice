@@ -1,0 +1,9 @@
+
+e
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„8Ê‡ÖàÜ1
+\
+java:S1128"?Remove this unused import 'jakarta.persistence.GeneratedValue'.(‘ŒÇŒ8Å¹çÚÛ1
+\
+java:S1128"?Remove this unused import 'jakarta.persistence.GenerationType'.(²ºëÊ8Æ¹çÚÛ1
+H
+java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8È¹çÚÛ1
