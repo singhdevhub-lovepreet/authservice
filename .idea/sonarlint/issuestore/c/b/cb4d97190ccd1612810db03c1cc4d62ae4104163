@@ -1,14 +1,10 @@
 
 L
-java:S3740""/Provide the parametrized type for this generic.(’¢’8ï¡¯áÜ1
+java:S3740""/Provide the parametrized type for this generic.(’¢’8ƒ¢×ã1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ô¡¯áÜ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…¢×ã1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ô¡¯áÜ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…¢×ã1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ô¡¯áÜ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…¢×ã1
 j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¢’8õ¡¯áÜ1
-w
-java:S1128"URemove this unused import 'org.springframework.security.access.prepost.PreAuthorize'.(ˆ†×ùÿÿÿÿ8Úºâİ1
-l
-java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.(‡¡‰Ø8Úºâİ1

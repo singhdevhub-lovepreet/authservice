@@ -45,3 +45,7 @@ g
 7app/src/main/java/authservice/utils/ValidationUtil.java,4/e/4e0c3d1aef52760fc02cd16f233c522591ddf7a2
 b
 2app/src/main/java/authservice/auth/UserConfig.java,0/d/0d5878ad0ef0c8085a658e61997f06f1c256c912
+]
+-app/src/main/resources/application.properties,9/4/9443afd372cca993f42e630b08adaf030a191ed8
+r
+Bapp/src/main/java/authservice/eventPublisher/UserInfoProducer.java,9/9/99640e000064f32bf23a2acb7185c96be6e64ec7
