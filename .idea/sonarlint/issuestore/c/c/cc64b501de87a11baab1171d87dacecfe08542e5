@@ -1,11 +1,13 @@
 
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…–”àÜ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8…–”àÜ1
 _
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8…–”àÜ1
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8…–”àÜ1
+_
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄŞ8ƒ­ô¢ã1
 
-java:S3305""]Inject this field value directly into "authenticationProvider", the only method that uses it.(±Ëáïÿÿÿÿÿ8†–”àÜ1
+java:S3305 "]Inject this field value directly into "authenticationProvider", the only method that uses it.(£›Õÿÿÿÿÿ8†–”àÜ1
 
-java:S3305"]Inject this field value directly into "authenticationProvider", the only method that uses it.(£›Õÿÿÿÿÿ8†–”àÜ1
-
-java:S1128"]Remove this unused import 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder'.(åÅÚ…ûÿÿÿÿ8êş”àÜ1
+java:S3305#"]Inject this field value directly into "authenticationProvider", the only method that uses it.(±Ëáïÿÿÿÿÿ8†–”àÜ1
+{
+java:S3305&"YInject this field value directly into "userDetailsService", the only method that uses it.(¶àòÓùÿÿÿÿ8£Éô¢ã1

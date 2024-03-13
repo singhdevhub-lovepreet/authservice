@@ -13,7 +13,8 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = {"authService.repository"})
-@ComponentScan(basePackages = {"authService.controller", "authService.auth", "authService.service"})
+@ComponentScan(basePackages = {"authService.controller", "authService.auth", "authService.service",
+        "authservice.eventProducer", "authservice.config"})
 public class App {
 
     public static void main(String[] args) {

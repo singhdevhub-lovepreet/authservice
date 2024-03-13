@@ -49,3 +49,7 @@ b
 -app/src/main/resources/application.properties,9/4/9443afd372cca993f42e630b08adaf030a191ed8
 r
 Bapp/src/main/java/authservice/eventPublisher/UserInfoProducer.java,9/9/99640e000064f32bf23a2acb7185c96be6e64ec7
+q
+Aapp/src/main/java/authservice/eventProducer/UserInfoProducer.java,f/b/fb69a500b8a3e56d938bac4142c97a0c2a0c9f15
+n
+>app/src/main/java/authservice/config/EventPublisherConfig.java,1/9/19fda979942ed9e61296c200912e9cd5504e8ca0
