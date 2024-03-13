@@ -53,3 +53,5 @@ q
 Aapp/src/main/java/authservice/eventProducer/UserInfoProducer.java,f/b/fb69a500b8a3e56d938bac4142c97a0c2a0c9f15
 n
 >app/src/main/java/authservice/config/EventPublisherConfig.java,1/9/19fda979942ed9e61296c200912e9cd5504e8ca0
+p
+@app/src/main/java/authservice/serializer/UserInfoSerializer.java,a/5/a566dc2cabf0d2a41fc82ec11b7efca42cb9c81e

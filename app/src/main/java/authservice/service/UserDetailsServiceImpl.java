@@ -58,6 +58,7 @@ public class UserDetailsServiceImpl implements UserDetailsService
 
     public Boolean signupUser(UserInfoDto userInfoDto){
         //        ValidationUtil.validateUserAttributes(userInfoDto);
+
         userInfoDto.setPassword(passwordEncoder.encode(userInfoDto.getPassword()));
         if(Objects.nonNull(checkIfUserAlreadyExist(userInfoDto))){
             return false;
@@ -66,7 +67,7 @@ public class UserDetailsServiceImpl implements UserDetailsService
         UserInfo userInfo = new UserInfo(userId, userInfoDto.getUsername(), userInfoDto.getPassword(), new HashSet<>());
         userRepository.save(userInfo);
         // pushEventToQueue
-        userInfoProducer.sendEventToKafka(userInfoDto);
+        userInfoProducer.sendEventToKafka(UserInfoDto.builder().firstName("abc").lastName("def").email("dawn").build());
         return true;
     }
 }

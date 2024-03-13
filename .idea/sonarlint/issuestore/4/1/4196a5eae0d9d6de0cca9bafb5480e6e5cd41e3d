@@ -6,4 +6,4 @@ java:S1128"?Remove this unused import 'jakarta.persistence.GeneratedValue'.(‘Œ
 \
 java:S1128"?Remove this unused import 'jakarta.persistence.GenerationType'.(²ºëÊ8 öˆ»ã1
 H
-java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8¡öˆ»ã1
+java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8ïÅ¾ã1

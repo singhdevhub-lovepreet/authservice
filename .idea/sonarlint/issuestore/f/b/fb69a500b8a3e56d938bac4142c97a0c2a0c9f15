@@ -1,15 +1,5 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ú™±øÿÿÿÿ8û‚º¼ã1
-p	java:S116"URename this field "TOPIC_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®®8ÿ‚º¼ã1
-=
-java:S1170"!Make this final field static too.(®®8ÿ‚º¼ã1
-W
-java:S6213)":Rename this variable to not match a restricted identifier.(åÜşË8„ƒº¼ã1
-W
-java:S1128":Remove this unused import 'authservice.entities.UserInfo'.(Ë×°è8ßì¾¼ã1
-e
-java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8áì¾¼ã1
-`
-java:S1128"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8âì¾¼ã1
-U
-java:S1068"8Remove this unused "eventPublisherConfig" private field.(àï°¬8…ƒº¼ã1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ú™±øÿÿÿÿ8´ğÌ½ã1
+g
+java:S1128
+"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ÊŸ÷¾ã1
