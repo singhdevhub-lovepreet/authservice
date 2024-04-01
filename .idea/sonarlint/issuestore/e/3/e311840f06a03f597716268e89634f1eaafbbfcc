@@ -1,24 +1,24 @@
 
-R
-java:S1874'"5Remove this use of "setSigningKey"; it is deprecated.(Ô™ğ‡8÷ ×ã1
-X
-java:S1874)"6Remove this use of "parseClaimsJws"; it is deprecated.(ëÙ–ºıÿÿÿÿ8ù ×ã1
-L
-java:S1874*"/Remove this use of "getBody"; it is deprecated.(ÊÄ¿Ì8ú ×ã1
-o	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãƒÃ°úÿÿÿÿ8ÅÃ¢Ú1
-S
-java:S1874A"1Remove this use of "setClaims"; it is deprecated.(æõíûúÿÿÿÿ8„¡×ã1
-T
-java:S1874B"2Remove this use of "setSubject"; it is deprecated.(¥¥ıÿÿÿÿ8„¡×ã1
-P
-java:S1874C"3Remove this use of "setIssuedAt"; it is deprecated.(øÔ÷ò8„¡×ã1
-W
-java:S1874D"5Remove this use of "setExpiration"; it is deprecated.(…´ˆóıÿÿÿÿ8…¡×ã1
-M
-java:S1874E"0Remove this use of "signWith"; it is deprecated.(óÜ˜8…¡×ã1
-W
-java:S1874E":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜8…¡×ã1
-W
-java:S1874E":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜8…¡×ã1
-g
-java:S1128	"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8†¡×ã1
+x
+java:S1874'"5Remove this use of "setSigningKey"; it is deprecated.(Ô™ğ‡8÷ ×ã1J$a4c13e76-a99b-4c82-9512-4ca6ff38c385
+~
+java:S1874)"6Remove this use of "parseClaimsJws"; it is deprecated.(ëÙ–ºıÿÿÿÿ8ù ×ã1J$a6dd3645-eb64-4152-ad44-40f56869a1eb
+r
+java:S1874*"/Remove this use of "getBody"; it is deprecated.(ÊÄ¿Ì8ú ×ã1J$10d3cf4a-bb46-47e1-92b8-9754900c11c8
+•	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãƒÃ°úÿÿÿÿ8ÅÃ¢Ú1J$7688f6ee-681a-407c-a629-4e8d530f81e5
+y
+java:S1874A"1Remove this use of "setClaims"; it is deprecated.(æõíûúÿÿÿÿ8„¡×ã1J$5cc8e000-19b4-4568-99fd-8fba2a9ee0d6
+z
+java:S1874B"2Remove this use of "setSubject"; it is deprecated.(¥¥ıÿÿÿÿ8„¡×ã1J$60b37b77-2a31-45bb-9316-5d352edf1e02
+v
+java:S1874C"3Remove this use of "setIssuedAt"; it is deprecated.(øÔ÷ò8„¡×ã1J$273eb8cb-78df-49bc-ae64-bd528eb491e7
+}
+java:S1874D"5Remove this use of "setExpiration"; it is deprecated.(…´ˆóıÿÿÿÿ8…¡×ã1J$693cb9d1-36d5-4275-af1e-2f50cfc4a036
+s
+java:S1874E"0Remove this use of "signWith"; it is deprecated.(óÜ˜8…¡×ã1J$300bf014-5c2d-4b5c-8dcc-9f97255d6810
+}
+java:S1874E":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜8…¡×ã1J$34c1c8f3-baeb-4769-8ea2-42afff1391f1
+}
+java:S1874E":Remove this use of "SignatureAlgorithm"; it is deprecated.(óÜ˜8…¡×ã1J$3e91365c-0d9a-49dc-9534-a297e7ccf01b
+
+java:S1128	"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8†¡×ã1J$55551958-4c3f-4488-8b7d-af3ab0adade8

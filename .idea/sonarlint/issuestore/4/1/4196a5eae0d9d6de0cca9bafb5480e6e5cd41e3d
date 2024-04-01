@@ -1,9 +1,9 @@
 
-e
-java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„8öˆ»ã1
-\
-java:S1128"?Remove this unused import 'jakarta.persistence.GeneratedValue'.(‘ŒÇŒ8Ÿöˆ»ã1
-\
-java:S1128"?Remove this unused import 'jakarta.persistence.GenerationType'.(²ºëÊ8 öˆ»ã1
-H
-java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8ïÅ¾ã1
+‹
+java:S1128"HRemove this unused import 'com.fasterxml.jackson.annotation.JsonIgnore'.(ş‘‹„8öˆ»ã1J$570d1dc4-4a90-4edc-b74f-bc71b757db70
+‚
+java:S1128"?Remove this unused import 'jakarta.persistence.GeneratedValue'.(‘ŒÇŒ8Ÿöˆ»ã1J$31888b08-f6c2-41d1-bfac-5be19311bf46
+‚
+java:S1128	"?Remove this unused import 'jakarta.persistence.GenerationType'.(²ºëÊ8 öˆ»ã1J$bd3f1be7-6be0-49d1-9c16-71c273898f43
+n
+java:S1128"+Remove this unused import 'lombok.Builder'.(§’Ğß8ïÅ¾ã1J$0e9d2ee9-4a3b-4e38-88fb-92530a058725

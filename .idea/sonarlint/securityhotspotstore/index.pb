@@ -47,11 +47,12 @@ b
 2app/src/main/java/authservice/auth/UserConfig.java,0/d/0d5878ad0ef0c8085a658e61997f06f1c256c912
 ]
 -app/src/main/resources/application.properties,9/4/9443afd372cca993f42e630b08adaf030a191ed8
-r
-Bapp/src/main/java/authservice/eventPublisher/UserInfoProducer.java,9/9/99640e000064f32bf23a2acb7185c96be6e64ec7
 q
 Aapp/src/main/java/authservice/eventProducer/UserInfoProducer.java,f/b/fb69a500b8a3e56d938bac4142c97a0c2a0c9f15
-n
->app/src/main/java/authservice/config/EventPublisherConfig.java,1/9/19fda979942ed9e61296c200912e9cd5504e8ca0
 p
 @app/src/main/java/authservice/serializer/UserInfoSerializer.java,a/5/a566dc2cabf0d2a41fc82ec11b7efca42cb9c81e
+>
+.gitattributes,2/4/24139dae656713ba861751fb2c2ac38839349a7a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
