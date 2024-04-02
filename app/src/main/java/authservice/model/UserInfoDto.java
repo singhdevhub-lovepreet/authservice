@@ -6,10 +6,14 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.SuperBuilder;
 
 @JsonNaming (PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Data
 @Builder
+@SuperBuilder
+@EqualsAndHashCode(callSuper = true)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserInfoDto extends UserInfo
 {
@@ -21,6 +25,5 @@ public class UserInfoDto extends UserInfo
     private Long phoneNumber;
 
     private String email; // email
-
 
 }
