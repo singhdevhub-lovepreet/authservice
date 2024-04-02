@@ -49,3 +49,6 @@ b
 -app/src/main/resources/application.properties,9/4/9443afd372cca993f42e630b08adaf030a191ed8
 r
 Bapp/src/main/java/authservice/eventPublisher/UserInfoProducer.java,9/9/99640e000064f32bf23a2acb7185c96be6e64ec7
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
