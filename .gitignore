@@ -1,6 +1,7 @@
-# Ignore Gradle project-specific cache directory
-.gradle
-
-# Ignore Gradle build output directory
-build
-.idea
+.gradle/
+.idea/
+out/
+src/**/.DS*
+build/
+*.iml.env
+.env
