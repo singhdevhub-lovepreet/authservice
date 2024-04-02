@@ -7,7 +7,6 @@ import authservice.model.UserInfoDto;
 import authservice.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +18,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.HashSet;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.UUID;
 
 @Component
