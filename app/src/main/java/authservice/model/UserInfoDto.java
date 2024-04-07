@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 import lombok.Setter;
 
 @JsonNaming (PropertyNamingStrategy.SnakeCaseStrategy.class)
@@ -18,9 +19,12 @@ import lombok.Setter;
 public class UserInfoDto extends UserInfo
 {
 
+    @NonNull
     private String firstName; // first_name
 
+    @NonNull
     private String lastName; //last_name
+
 
     private Long phoneNumber;
 
