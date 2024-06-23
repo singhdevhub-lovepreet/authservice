@@ -49,14 +49,16 @@ public class AuthController
         }
     }
 
-    @GetMapping("/ping")
+    @GetMapping("/auth/ping")
     public ResponseEntity<String> ping() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null && authentication.isAuthenticated()) {
-            return ResponseEntity.ok("Pong");
-        } else {
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
+            String userId = userDetailsService.getUserByUsername(authentication.getName());
+            if(Objects.nonNull(userId)){
+                return ResponseEntity.ok(userId);
+            }
         }
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
     }
 
 }
