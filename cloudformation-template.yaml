@@ -30,7 +30,16 @@ Resources:
             service docker start
             usermod -a -G docker ec2-user
             docker pull ${ECRRepositoryUri}:latest
-            docker run -d -p 80:80 ${ECRRepositoryUri}:latest
+            echo "search myapp.local" >> /etc/resolv.conf
+            docker run -d -p 80:80 \
+              -e MYSQL_HOST=mysql.myapp.local \
+              -e MYSQL_PORT=3306 \
+              -e MYSQL_DB=authservice \
+              -e MYSQL_USER=${MySQLUser} \
+              -e MYSQL_PASSWORD=${MySQLPassword} \
+              -e KAFKA_HOST=kafka.myapp.local \
+              -e KAFKA_PORT=9092 \
+              ${ECRRepositoryUri}:latest
 
   AutoScalingGroup:
     Type: AWS::AutoScaling::AutoScalingGroup

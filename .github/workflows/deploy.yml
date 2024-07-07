@@ -40,13 +40,17 @@ jobs:
           SUBNET_2: ${{ secrets.SUBNET_2 }}
           AMI_ID: ${{ secrets.AMI_ID }}
           ECR_REPOSITORY_URI: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}
+          MYSQL_USER: ${{ secrets.MYSQL_USER }}
+          MYSQL_PASSWORD: ${{ secrets.MYSQL_PASSWORD }}
         run: |
           aws cloudformation deploy \
             --template-file cloudformation-template.yaml \
-            --stack-name authservice-cfn \
+            --stack-name authservice-stack \
             --parameter-overrides \
               VPC=${VPC_ID} \
               Subnets=${SUBNET_1},${SUBNET_2} \
               AMI=${AMI_ID} \
               ECRRepositoryUri=${ECR_REPOSITORY_URI} \
+              MySQLUser=${MYSQL_USER} \
+              MySQLPassword=${MYSQL_PASSWORD} \
             --capabilities CAPABILITY_IAM
