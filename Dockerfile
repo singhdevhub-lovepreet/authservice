@@ -5,7 +5,7 @@ FROM openjdk:21
 WORKDIR /app
 
 # Copy the JAR file from the host to the container
-COPY app.jar /app/app.jar
+COPY app/build/libs/app.jar /app/app.jar
 
 # Expose the port that your Java service listens on
 EXPOSE 9898
