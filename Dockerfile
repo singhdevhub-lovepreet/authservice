@@ -1,7 +1,6 @@
-# Use the official OpenJDK 21 base image
-FROM openjdk:21
+# Use Amazon Corretto 21 with platform specification
+FROM --platform=linux/amd64 amazoncorretto:21
 
-# Set the working directory inside the container
 WORKDIR /app
 
 # Copy the JAR file from the host to the container
