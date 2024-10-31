@@ -61,4 +61,9 @@ public class AuthController
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Unauthorized");
     }
 
+    @GetMapping("/health")
+    public ResponseEntity<Boolean> checkHealth(){
+        return new ResponseEntity<>(true, HttpStatus.OK);
+    }
+
 }
